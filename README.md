@@ -11,5 +11,5 @@ Python 3.x
 pygame
 
 ## How to use
-When you run the code in python you'll be met by a partially solved board. Press the spacebar to start the solver.  
+Run the Sudoku_solver.py file. When you run the code in Python you'll be met by a partially solved board. Press the spacebar to start the solver.  
 In the future I'm going to incorporate this into a sudoku where you can fully play the game, create boards and check solutions
