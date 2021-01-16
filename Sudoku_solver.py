@@ -1,6 +1,13 @@
+"""
+This is a visualiser of a backtracking algorithm that is used to solve a sudoku board.
+Author: Alastair McNeill
+Started:13th January 2021
+Ended: 16th January 2021
+"""
 import pygame
+
+from sudoku.Constants import WIN_HEIGHT, WIN_WIDTH
 from sudoku.Sudoku import Sudoku
-from sudoku.Constants import WIN_WIDTH, WIN_HEIGHT
 
 BOARD = [[7, 8, 0, 4, 0, 0, 1, 2, 0],
         [6, 0, 0, 0, 7, 5, 0, 0, 9],
@@ -16,6 +23,9 @@ WIN = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
 pygame.display.set_caption("Sudoku Sovler")
 
 def main():
+    """
+    Run this function to open the pygame winodw and then use sapcebar to solve the sudoku
+    """
 
     sudoku = Sudoku(WIN, BOARD)
     run = True

@@ -1,4 +1,9 @@
+"""
+Constants for the game of Sudoku
+"""
+
 import pygame
+
 pygame.font.init()
 
 # Colours
